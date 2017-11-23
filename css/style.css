@@ -1,0 +1,14 @@
+/*****************************************/
+/* Navbar */
+/*****************************************/
+
+@font-face {
+    font-family: "Emmett";
+    src: url(../fonts/emmett.ttf);
+}
+
+.emmett {
+    font-family: "Emmett";
+    font-size: 3em;
+    color: #1237AE;
+}
