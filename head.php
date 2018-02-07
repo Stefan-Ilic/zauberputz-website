@@ -16,3 +16,6 @@
 
 <!-- own css -->
 <link href="css/style.css" type="text/css" rel="stylesheet" />
+
+<!-- carousel -->
+<link href="css/carousel.css" type="text/css" rel="stylesheet" />

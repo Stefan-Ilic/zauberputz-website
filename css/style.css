@@ -12,3 +12,67 @@
     font-size: 3em;
     color: #1237AE;
 }
+nav a {
+    color: #1237AE;
+}
+nav {
+    margin-top: 20px;
+}
+
+/*****************************************/
+/* Main Area */
+/*****************************************/
+
+.text-limit {
+    min-height: 85px;
+}
+@media (max-width: 990px) {
+
+}
+
+@media (max-width: 1195px) {
+    .text-limit {
+        min-height: 100px;
+    }
+}
+figure {
+    display: table;
+}
+
+figcaption {
+    display:table-caption;
+    caption-side:bottom;
+    margin-top: 10px;
+}
+
+figure img {
+    height: 200px;
+    width: 300px;
+}
+.zauberputz-button {
+    background-color: #1237AE !important;
+    color: white;
+}
+.zauberputz-button:hover {
+    background-color: #556FC4 !important;
+}
+
+footer {
+    background-color: #DAEDFF;
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 990px) {
+    .text-limit {
+        min-height: 0px;
+    }
+    h2 {
+        text-align: center;
+    }
+    figure {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
