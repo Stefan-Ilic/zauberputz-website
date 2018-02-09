@@ -19,7 +19,7 @@
             <img class="second-slide" src="img/header2.png" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Grünflächenbetreuung</h1>
+                    <h1>Grünflächen</h1>
                     <p>Die dem Schönwetter würdig ist</p>
                 </div>
             </div>
