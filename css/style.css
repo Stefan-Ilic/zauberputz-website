@@ -96,6 +96,7 @@ nav {
 
 .text-limit {
     min-height: 85px;
+    text-align: justify;
 }
 
 
