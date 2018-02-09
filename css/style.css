@@ -128,7 +128,8 @@ figure img {
 }
 
 .zauberputz-button:hover {
-    background-color: #96DEFF !important;
+    background-color: #2568b0 !important;
+    color: white;
 }
 
 footer {
