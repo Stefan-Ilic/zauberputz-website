@@ -2,8 +2,8 @@
 <html lang="de">
 
 <head>
-    <title>Impressum</title>
     <?php include("head.php"); ?>
+    <title>Impressum</title>
 </head>
 
 <body id="impressum">

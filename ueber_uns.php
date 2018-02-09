@@ -2,8 +2,8 @@
 <html lang="de">
 
 <head>
-    <title>Über Uns</title>
     <?php include("head.php"); ?>
+    <title>Über Uns</title>
 </head>
 
 <body id="ueber_uns">

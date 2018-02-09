@@ -2,8 +2,8 @@
 <html lang="de">
 
 <head>
-    <title>Kontakt</title>
     <?php include("head.php"); ?>
+    <title>Kontakt</title>
 </head>
 
 <body id="kontakt">

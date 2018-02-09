@@ -2,8 +2,8 @@
 <html lang="de">
 
 <head>
-    <title>Zauberputz</title>
     <?php include("head.php"); ?>
+    <title>Zauberputz</title>
 </head>
 
 <body>

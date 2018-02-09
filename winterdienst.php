@@ -2,8 +2,8 @@
 <html lang="de">
 
 <head>
-    <title>Winterdienst</title>
     <?php include("head.php"); ?>
+    <title>Winterdienst</title>
 </head>
 
 <body id="winterdienst">

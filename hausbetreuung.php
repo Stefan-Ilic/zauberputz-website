@@ -2,8 +2,8 @@
 <html lang="de">
 
 <head>
-    <title>Hausbetreuung</title>
     <?php include("head.php"); ?>
+    <title>Hausbetreuung</title>
 </head>
 
 <body id="hausbetreuung">

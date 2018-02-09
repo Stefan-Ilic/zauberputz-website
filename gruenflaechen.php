@@ -2,8 +2,8 @@
 <html lang="de">
 
 <head>
-    <title>Grünflächen</title>
     <?php include("head.php"); ?>
+    <title>Grünflächen</title>
 </head>
 
 <body id="gruenflaechen">
