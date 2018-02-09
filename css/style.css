@@ -178,3 +178,21 @@ footer {
 #jobs p {
     font-size: 1.5em;
 }
+
+/*****************************************/
+/* Über Uns */
+/*****************************************/
+
+#ueber_uns p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#ueber_uns div.trim {
+    max-height:200px;
+    overflow: hidden;
+}
+
+#ueber_uns img {
+    min-width: 100%;
+}
