@@ -7,6 +7,9 @@
 <!-- jquery -->
 <script src="js/jquery.js" type="text/javascript"></script>
 
+<!-- Scaling -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!-- bootstrap -->
 <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
