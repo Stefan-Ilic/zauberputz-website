@@ -196,3 +196,25 @@ footer {
 #ueber_uns img {
     min-width: 100%;
 }
+
+/*****************************************/
+/* Winterdienst */
+/*****************************************/
+
+#winterdienst p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#winterdienst li {
+    font-size: 1.2em;
+}
+
+#winterdienst div.trim {
+    max-height:250px;
+    overflow: hidden;
+}
+
+#winterdienst img {
+    min-width: 100%;
+}

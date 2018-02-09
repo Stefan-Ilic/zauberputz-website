@@ -16,9 +16,9 @@
                         Leistungen <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="navbar-item" href="#"> Hausbetreuung </a></li>
-                        <li><a class="navbar-item" href="#"> Grünflächenbetreuung </a></li>
-                        <li><a class="navbar-item" href="#"> Winterdienst </a></li>
+                        <li><a class="navbar-item" href="hausbetreuung.php"> Hausbetreuung </a></li>
+                        <li><a class="navbar-item" href="gruenflaechen.php"> Grünflächenbetreuung </a></li>
+                        <li><a class="navbar-item" href="winterdienst.php"> Winterdienst </a></li>
                     </ul>
                 </li>
                 <li><a class="navbar-item" href="ueber_uns.php"> Über Uns </a></li>

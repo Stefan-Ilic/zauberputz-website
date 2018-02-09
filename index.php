@@ -22,7 +22,7 @@
                             das ganze Jahr hinweg jederzeit sauber, gepflegt und betreut ist.
                         </figcaption>
                         <figcaption>
-                            <button class="btn btn-default pull-right zauberputz-button">Mehr</button>
+                            <a href="hausbetreuung.php" class="btn btn-default pull-right zauberputz-button">Mehr</a>
                         </figcaption>
                     </figure>
                 </div>
@@ -37,7 +37,7 @@
                         uns darum.
                     </figcaption>
                     <figcaption>
-                        <button class="btn btn-default pull-right zauberputz-button">Mehr</button>
+                        <a href="gruenflaechen.php" class="btn btn-default pull-right zauberputz-button">Mehr</a>
                     </figcaption>
                 </figure>
             </section>
@@ -49,7 +49,7 @@
                         sonstigen Flächen frei von Schnee und Glatteis sind, um größte Sicherheit zu gewährleisten.
                     </figcaption>
                     <figcaption>
-                        <button class="btn btn-default pull-right zauberputz-button">Mehr</button>
+                        <a href="winterdienst.php" class="btn btn-default pull-right zauberputz-button">Mehr</a>
                     </figcaption>
                 </figure>
             </section>
@@ -65,7 +65,7 @@
                     Ihre persönlichen Anliegen und Wünsche ein.
                 </figcaption>
                 <figcaption>
-                    <button class="btn btn-default pull-right zauberputz-button">Mehr</button>
+                    <a href="ueber_uns.php" class="btn btn-default pull-right zauberputz-button">Mehr</a>
                 </figcaption>
             </figure>
         </section>
@@ -75,7 +75,7 @@
                 <img src="img/jobs.jpg" alt="Jobs">
                 <figcaption class="text-limit">Interessiert an einem Job bei uns?</figcaption>
                 <figcaption>
-                    <button class="btn btn-default pull-right zauberputz-button">Mehr</button>
+                    <a href="jobs.php" class="btn btn-default pull-right zauberputz-button">Mehr</a>
                 </figcaption>
             </figure>
         </section>
