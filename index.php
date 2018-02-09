@@ -13,9 +13,9 @@
 
     <div class="container">
         <div class="row">
-            <section class=" col-xs-12 col-md-4">
+            <section class="col-xs-12 col-md-4">
                 <h2>Hausbetreuung</h2>
-                <div class="block-center">
+                <div>
                     <figure>
                         <img src="img/sub_pic_1.png" alt="Hausbetreuung">
                         <figcaption class="text-limit">Mit unserer Hausbetreuung versichern wir, dass Ihr Objekt über
