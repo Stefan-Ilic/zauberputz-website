@@ -146,3 +146,15 @@ footer {
         margin-right: auto;
     }
 }
+
+/*****************************************/
+/* Kontakt */
+/*****************************************/
+
+#kontakt p {
+    font-size: 1.5em;
+}
+
+#kontakt h3 {
+    font-weight: bold;
+}

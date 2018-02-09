@@ -23,7 +23,7 @@
                 </li>
                 <li><a class="navbar-item" href="#"> Über Uns </a></li>
                 <li><a class="navbar-item" href="#"> Jobs </a></li>
-                <li><a class="navbar-item" href="#"> Kontakt </a></li>
+                <li><a class="navbar-item" href="kontakt.php"> Kontakt </a></li>
             </ul>
         </div>
     </div>
