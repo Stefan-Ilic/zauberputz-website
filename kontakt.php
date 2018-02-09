@@ -14,7 +14,9 @@
     <h3><?= $company_name ?></h3>
     <p>
         <?= $street ?> <br/>
-        <?= $postcode ?> <?= $city ?><br/>
+        <?= $postcode ?> <?= $city ?>
+    </p>
+    <p>
         Tel.: <?= $telephone_number ?> <br/>
         E-Mail: <a href="mailto:<?= $email ?>"><?= $email ?></a>
     </p>
