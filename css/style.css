@@ -12,11 +12,25 @@
     font-size: 3em;
     color: #1237AE;
 }
-nav a {
-    color: #1237AE;
+.navbar-item {
+    color: #1237AE !important;
 }
+
+ul.nav a:hover {
+    background-color: #E7E7E7 !important;
+}
+
 nav {
     margin-top: 20px;
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: none;
+    box-shadow: none;
 }
 
 /*****************************************/
@@ -54,7 +68,7 @@ figure img {
     color: white;
 }
 .zauberputz-button:hover {
-    background-color: #556FC4 !important;
+    background-color: #96DEFF !important;
 }
 
 footer {
