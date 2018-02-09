@@ -19,3 +19,8 @@
 
 <!-- carousel -->
 <link href="css/carousel.css" type="text/css" rel="stylesheet" />
+
+<?php
+    //Information File
+    include("information.php");
+?>
