@@ -240,3 +240,25 @@ footer {
 #gruenflaechen img {
     min-width: 100%;
 }
+
+/*****************************************/
+/* Hausbetreuung */
+/*****************************************/
+
+#hausbetreuung p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#hausbetreuung li {
+    font-size: 1.2em;
+}
+
+#hausbetreuung div.trim {
+    max-height:250px;
+    overflow: hidden;
+}
+
+#hausbetreuung img {
+    min-width: 100%;
+}
