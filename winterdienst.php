@@ -10,8 +10,8 @@
 <div class="container">
     <?php include("navbar.php"); ?>
 
-    <h1>Winterdienst</h1>
     <div class="trim"><img class="img img-responsive" src="img/header3.png" alt="Winterdienst Header"/></div>
+    <h1>Winterdienst</h1>
     <p>In den kalten Monaten lauern viele Gefahren, darunter Glatteis und verschneite Wege. Um Ihre Sicherheit zu gewährleisten, sind wir im Rahmen unseres Winterdienstes Tag und Nacht bemüht, die Umgebung Ihres Wohnobjektes so sicher und frei begehbar wie möglich zu machen. Unser Winterdienstangebot beinhaltet unter anderem:</p>
     <ul>
         <li>Räumung der in der Anlage enthaltenen Flächen von Schnee</li>

@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Grünflächen</h1>
-                    <p>Die dem Schönwetter würdig ist</p>
+                    <p>Die dem Schönwetter würdig sind</p>
                 </div>
             </div>
         </div>

@@ -218,3 +218,25 @@ footer {
 #winterdienst img {
     min-width: 100%;
 }
+
+/*****************************************/
+/* Grünflächenbetreuung */
+/*****************************************/
+
+#gruenflaechen p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#gruenflaechen li {
+    font-size: 1.2em;
+}
+
+#gruenflaechen div.trim {
+    max-height:250px;
+    overflow: hidden;
+}
+
+#gruenflaechen img {
+    min-width: 100%;
+}
