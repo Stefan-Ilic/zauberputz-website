@@ -1,21 +1,24 @@
 {
-    "name": "renex",
+    "name": "zauberputz",
     "version": "1.5.0",
-    "description": "Renex - SEO Marketing & IT Services React Next Template",
+    "description": "Hausbetreuung Wien",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
-        "build": "next build",
+        "build": "next build && next export",
         "export": "next export",
         "start": "next start",
         "lint": "next lint"
     },
-    "author": "EnvyTheme.com",
+    "author": "Zauberputz",
     "license": "ISC",
     "dependencies": {
         "@formspree/react": "^2.3.0",
         "axios": "^0.21.4",
+        "imagemin-optipng": "^8.0.0",
+        "imagemin-svgo": "^9.0.0",
         "next": "^12.1.5",
+        "next-optimized-images": "^2.6.2",
         "nodemailer": "^6.7.1",
         "nodemailer-sendgrid-transport": "^0.2.0",
         "react": "^18.0.0",
