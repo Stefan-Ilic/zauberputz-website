@@ -57,11 +57,11 @@ const Footer = () => {
                                 <h3>Links</h3>
         
                                 <ul className="quick-links">
-                                    {/* <li>
+                                    <li>
                                         <Link href="/blog-2">
                                             <a>Blog</a>
                                         </Link>
-                                    </li> */}
+                                    </li>
                                     <li>
                                         <Link href="/kontakt">
                                             <a>Kontakt</a>

@@ -15,8 +15,18 @@ import SubscribeForm from '../components/Common/SubscribeForm';
 import Partners from '../components/Common/Partners';
 import Footer from '../components/_App/Footer';
 import AboutUsContent from '../components/HomeOne/AboutUsContent';
+import { getAllPosts } from '../posts'
 
-const Index = () => {
+export async function getStaticProps() {
+    const posts = getAllPosts();
+    return {
+        props: {
+            posts,
+        },
+    }
+}
+
+const Index = ({ posts }) => {
     return (
         <>
             <Navbar />
@@ -27,7 +37,7 @@ const Index = () => {
 
             <ServicesStyleTwo />
 
-            {/* <LatestBlogPost /> */}
+            <LatestBlogPost posts={posts} />
 
             <SubscribeForm />
             

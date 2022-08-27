@@ -76,11 +76,11 @@ const Navbar = () => {
                                         </ul>
                                     </li>
 
-                                    {/* <li className="nav-item">
+                                    <li className="nav-item">
                                         <Link href="/blog">
                                             <a className="nav-link">Blog</a>
                                         </Link>
-                                    </li> */}
+                                    </li>
 
                                     <li className="nav-item">
                                         <Link href="/faq">
