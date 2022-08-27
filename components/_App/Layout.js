@@ -9,8 +9,8 @@ const Layout = ({ children }) => {
                 <title>Hausbetreuung Wien</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta name="description" content="Hausbetreuung Wien - Winterdienst und Grünflächenbetreuung" />
-                <meta name="og:title" property="og:title" content="Renex - SEO Marketing & IT Services React Next Template"></meta>
-                <meta name="twitter:card" content="Renex - SEO Marketing & IT Services React Next Template"></meta>
+                <meta name="og:title" property="og:title" content="Hausbetreuung Wien"></meta>
+                <meta name="twitter:card" content="Hausbetreuung Wien"></meta>
             </Head>
 
             {children}
