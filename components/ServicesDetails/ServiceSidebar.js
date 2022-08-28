@@ -21,7 +21,7 @@ const ServiceSidebar = () => {
                 <h3>Broschüren</h3>
 
                 <ul>
-                    <li><a href="/services-details" target="_blank">Alle Leistungen auf einen Blick <i className='bx bxs-file-pdf'></i></a></li>
+                    <li><a href="/Verkaufsbroschüre_2_DIGITAL.pdf">Alle Leistungen auf einen Blick <i className='bx bxs-file-pdf'></i></a></li>
                 </ul>
             </div>
 
