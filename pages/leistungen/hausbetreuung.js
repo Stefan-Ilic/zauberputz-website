@@ -6,10 +6,15 @@ import ServiceSidebar from '../../components/ServicesDetails/ServiceSidebar';
 import ServiceFaq from '../../components/ServicesDetails/ServiceFaq';
 import RelatedServices from '../../components/ServicesDetails/RelatedServices';
 import { hausbetreuungFaq } from '../../constants';
+import Head from 'next/head';
 
 const ServicesDetails = () => {
     return (
         <>
+            <Head>
+                <title>Hausbetreuung Wien</title>
+                <meta name="description" content="Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Stiegenhausreinigung, Entrümpelungen, Räumungen, Zählerablesungen, Hausreinigung in Wien und Umgebung" />
+            </Head>
 			<Navbar />
 
 			<PageBanner 

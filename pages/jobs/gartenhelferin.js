@@ -3,10 +3,16 @@ import Navbar from '../../components/_App/Navbar';
 import PageBanner from '../../components/Common/PageBanner';
 import Footer from '../../components/_App/Footer';
 import { emailAddress } from '../../constants';
+import Head from 'next/head';
 
 const PortfolioDetails = () => {
     return (
         <>
+            <Head>
+                <title>Gartenhelfer/in gesucht! Hausbetreuung Wien</title>
+                <meta name="description" content="Gartenhelfer/in gesucht! Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbeteuung, Grünflächenbetreuung und Winterdienst in Wien und Umgebung." />
+            </Head>
+
 			<Navbar />
 
 			<PageBanner 

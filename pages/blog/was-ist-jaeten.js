@@ -5,6 +5,7 @@ import PageBanner from '../../components/Common/PageBanner';
 import Footer from '../../components/_App/Footer';
 import BlogSidebar from '../../components/Blog/BlogSidebar';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const BlogDetails = () => {
     const [url, setUrl] = useState('');
@@ -15,6 +16,10 @@ const BlogDetails = () => {
 
     return (
         <>
+            <Head>
+                <title>Was ist Jäten?</title>
+                <meta name="description" content="Was ist jäten und wie macht man es richtig? Von Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbeteuung, Grünflächenbetreuung und Winterdienst in Wien" />
+            </Head>
 			<Navbar />
 			
             <div className="blog-details-area ptb-50">

@@ -4,6 +4,7 @@ import PageBanner from '../../components/Common/PageBanner';
 import Footer from '../../components/_App/Footer';
 import Link from 'next/link';
 import { getAllPosts } from '../../posts'
+import Head from 'next/head';
 
 export async function getStaticProps() {
     const posts = getAllPosts();
@@ -18,6 +19,11 @@ const BlogTwo = ({ posts }) => {
     
     return (
         <>
+            <Head>
+                <title>Blog - Hausbetreuung Wien</title>
+                <meta name="description" content="Der Blog der Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbeteuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst in Wien und Umgebung." />
+            </Head>
+
 			<Navbar />
 
 			<PageBanner 

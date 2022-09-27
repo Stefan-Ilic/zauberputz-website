@@ -11,10 +11,16 @@ import {
     AccordionItemButton
 } from 'react-accessible-accordion';
 import { hausbetreuungFaq, winterdienstFaq, gartenFaq } from '../constants';
+import Head from 'next/head';
 
 const Faq = () => {
     return (
         <>
+            <Head>
+                <title>FAQ -  Hausbetreuung Wien</title>
+                <meta name="description" content="FAQ - Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbeteuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst in Wien und Umgebung." />
+            </Head>
+
 			<Navbar />
 
 			<PageBanner 
