@@ -18,7 +18,7 @@ const BlogDetails = () => {
         <>
             <Head>
                 <title>Was ist Jäten?</title>
-                <meta name="description" content="Was ist jäten und wie macht man es richtig? Von Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbeteuung, Grünflächenbetreuung und Winterdienst in Wien" />
+                <meta name="description" content="Was ist jäten und wie macht man es richtig? Von Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung und Winterdienst in Wien" />
             </Head>
 			<Navbar />
 			

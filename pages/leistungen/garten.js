@@ -6,10 +6,15 @@ import ServiceSidebar from '../../components/ServicesDetails/ServiceSidebar';
 import ServiceFaq from '../../components/ServicesDetails/ServiceFaq';
 import RelatedServices from '../../components/ServicesDetails/RelatedServices';
 import { gartenFaq } from '../../constants';
+import Head from 'next/head';
 
 const ServicesDetails = () => {
     return (
         <>
+            <Head>
+                <title>Gartenbetreuung Wien</title>
+                <meta name="description" content="Gartenbetreuung Wien - Zauberputz. Ihr Spezialist für Rasen mähen, Jäten, Bewässerung, Laubkehrung, Heckenschnitt, Unkrautentfernung in Wien und Umgebung" />
+            </Head>
 			<Navbar />
 
 			<PageBanner 

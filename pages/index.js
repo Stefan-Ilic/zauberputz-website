@@ -16,6 +16,7 @@ import Partners from '../components/Common/Partners';
 import Footer from '../components/_App/Footer';
 import AboutUsContent from '../components/HomeOne/AboutUsContent';
 import { getAllPosts } from '../posts'
+import Head from 'next/head';
 
 export async function getStaticProps() {
     const posts = getAllPosts();
@@ -29,6 +30,11 @@ export async function getStaticProps() {
 const Index = ({ posts }) => {
     return (
         <>
+            <Head>
+                <title>Hausbetreuung Wien</title>
+                <meta name="description" content="Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst/Schneeräumung in Wien und Umgebung." />
+            </Head>
+
             <Navbar />
 
             <MainBanner />

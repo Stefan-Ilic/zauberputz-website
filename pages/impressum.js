@@ -4,10 +4,15 @@ import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
 import SubscribeForm from '../components/Common/SubscribeForm';
 import { address, phoneNumber, emailAddress } from '../constants';
+import Head from 'next/head';
 
 const TermsOfService = () => {
     return (
         <>
+            <Head>
+                <title>Impressum - Hausbetreuung Wien</title>
+                <meta name="description" content="Das Impressum der Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst in Wien und Umgebung." />
+            </Head>
 			<Navbar />
 
 			<PageBanner 

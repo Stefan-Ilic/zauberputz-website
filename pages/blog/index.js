@@ -21,7 +21,7 @@ const BlogTwo = ({ posts }) => {
         <>
             <Head>
                 <title>Blog - Hausbetreuung Wien</title>
-                <meta name="description" content="Der Blog der Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbeteuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst in Wien und Umgebung." />
+                <meta name="description" content="Der Blog der Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst in Wien und Umgebung." />
             </Head>
 
 			<Navbar />

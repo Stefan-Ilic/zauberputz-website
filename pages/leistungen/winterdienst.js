@@ -6,10 +6,15 @@ import ServiceSidebar from '../../components/ServicesDetails/ServiceSidebar';
 import ServiceFaq from '../../components/ServicesDetails/ServiceFaq';
 import RelatedServices from '../../components/ServicesDetails/RelatedServices';
 import { winterdienstFaq } from '../../constants';
+import Head from 'next/head';
 
 const ServicesDetails = () => {
     return (
         <>
+            <Head>
+                <title>Winterdienst Wien</title>
+                <meta name="description" content="Winterdienst Wien - Zauberputz. Ihr Spezialist für Schneeräumung, Streuung, Zwischenkehrungen, Tauwetterkontrollen,  StVO (§ 93) und ABGB (§ 1319a) in Wien" />
+            </Head>
 			<Navbar />
 
 			<PageBanner 

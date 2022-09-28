@@ -3,10 +3,15 @@ import Navbar from '../../components/_App/Navbar';
 import PageBanner from '../../components/Common/PageBanner';
 import Footer from '../../components/_App/Footer';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const PortfolioTwo = () => {
     return (
         <>
+            <Head>
+                <title>Jobs - Hausbetreuung Wien</title>
+                <meta name="description" content="Jobs bei der Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst in Wien und Umgebung." />
+            </Head>
 			<Navbar />
 
 			<PageBanner 
