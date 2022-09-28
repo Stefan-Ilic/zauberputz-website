@@ -12,7 +12,7 @@ const ServicesDetails = () => {
     return (
         <>
             <Head>
-                <title>Hausbetreuung Wien</title>
+                <title>Hausbetreuung/Stiegenhausreinigung Wien</title>
                 <meta name="description" content="Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Stiegenhausreinigung, Entrümpelungen, Räumungen, Zählerablesungen, Hausreinigung in Wien und Umgebung" />
             </Head>
 			<Navbar />
