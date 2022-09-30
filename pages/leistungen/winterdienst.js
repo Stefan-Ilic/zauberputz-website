@@ -12,7 +12,7 @@ const ServicesDetails = () => {
     return (
         <>
             <Head>
-                <title>Winterdienst Wien</title>
+                <title>Winterdienst Wien - Hausbetreuung/Gartenbetreuung/Winterdienst</title>
                 <meta name="description" content="Winterdienst Wien - Zauberputz. Ihr Spezialist für Schneeräumung, Streuung, Zwischenkehrungen, Tauwetterkontrollen,  StVO (§ 93) und ABGB (§ 1319a) in Wien" />
             </Head>
 			<Navbar />

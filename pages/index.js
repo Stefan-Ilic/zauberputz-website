@@ -31,7 +31,7 @@ const Index = ({ posts }) => {
     return (
         <>
             <Head>
-                <title>Hausbetreuung Wien</title>
+                <title>Hausbetreuung/Gartenbetreuung/Winterdienst Wien</title>
                 <meta name="description" content="Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst/Schneeräumung in Wien und Umgebung." />
             </Head>
 

@@ -12,7 +12,7 @@ const ServicesDetails = () => {
     return (
         <>
             <Head>
-                <title>Gartenbetreuung Wien</title>
+                <title>Gartenbetreuung Wien - Hausbetreuung/Gartenbetreuung/Winterdienst</title>
                 <meta name="description" content="Gartenbetreuung Wien - Zauberputz. Ihr Spezialist für Rasen mähen, Jäten, Bewässerung, Laubkehrung, Heckenschnitt, Unkrautentfernung in Wien und Umgebung" />
             </Head>
 			<Navbar />

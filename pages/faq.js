@@ -17,7 +17,7 @@ const Faq = () => {
     return (
         <>
             <Head>
-                <title>FAQ -  Hausbetreuung Wien</title>
+                <title>FAQ - Hausbetreuung/Gartenbetreuung/Winterdienst Wien</title>
                 <meta name="description" content="FAQ - Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst in Wien und Umgebung." />
             </Head>
 

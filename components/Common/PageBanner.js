@@ -8,7 +8,7 @@ const PageBanner = ({pageTitle, homePageUrl, homePageText, activePageText, BGIma
                 <div className="d-table-cell">
                     <div className="container">
                         <div className="page-banner-content">
-                            <h2>{pageTitle}</h2>
+                            <h1 style={{color: 'white'}}>{pageTitle}</h1>
                             <ul>
                                 <li>
                                     <Link href={homePageUrl}>

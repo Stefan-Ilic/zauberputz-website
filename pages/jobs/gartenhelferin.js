@@ -9,7 +9,7 @@ const PortfolioDetails = () => {
     return (
         <>
             <Head>
-                <title>Gartenhelfer/in gesucht! Hausbetreuung Wien</title>
+                <title>Gartenhelferin/Gartenhelfer gesucht! Hausbetreuung Wien</title>
                 <meta name="description" content="Gartenhelfer/in gesucht! Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung und Winterdienst in Wien und Umgebung." />
             </Head>
 

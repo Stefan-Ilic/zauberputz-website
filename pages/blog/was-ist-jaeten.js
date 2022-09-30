@@ -17,7 +17,7 @@ const BlogDetails = () => {
     return (
         <>
             <Head>
-                <title>Was ist Jäten?</title>
+                <title>Was ist Jäten und wie macht man es richtig?</title>
                 <meta name="description" content="Was ist jäten und wie macht man es richtig? Von Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung und Winterdienst in Wien" />
             </Head>
 			<Navbar />
@@ -40,7 +40,7 @@ const BlogDetails = () => {
                                         </ul>
                                     </div>
 
-                                    <h3>Was ist Jäten und wie macht man es richtig?</h3>
+                                    <h1>Was ist Jäten und wie macht man es richtig?</h1>
                                     <p>Um schöne und gesunde Pflanzen zu haben ist es von größter Wichtigkeit, regelmäßig zu jäten. Jäten bedeutet, Unkraut zwischen Fugen von Gehwegplatten und Terrassensteinen manuell oder unter Zuhilfenahme verschiedener Werkzeuge zu entfernen.</p>
 
                                     <p>Unkraut einfach mit der Hand aus dem Boden zu ziehen (traditionelles Jäten) ist hierbei sicherlich die einfachste und älteste Methode, jedoch bleibt sie mitunder eine der Effektivsten. Das traditionelle Jäten ist sehr umweltfreundlich, da keine Schadstoffe in den Boden gebracht werden und dadurch der Anbau von Obst und Gemüse nicht beeinflusst wird.</p>

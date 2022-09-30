@@ -24,7 +24,7 @@ const ServicesStyleTwo = () => {
                                 </div>
                                 <div className="content">
                                     <h3>
-                                        <Link href="/services-details">
+                                        <Link href={service.link}>
                                             <a>{service.name}</a>
                                         </Link>
                                     </h3>

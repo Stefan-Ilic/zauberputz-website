@@ -18,7 +18,7 @@ export const services = [
     },
     {
         name: 'Grünflächenbetreuung',
-        link: '/leistungen/garten',
+        link: '/leistungen/gartenbetreuung',
         smallImage: '/images/services/service-gruenflaechen.svg',
         slogan: 'In den kalten Monaten'
     },

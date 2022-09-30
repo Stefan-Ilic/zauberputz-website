@@ -14,7 +14,7 @@ const Contact = () => {
     return (
         <>
             <Head>
-                <title>Kontakt - Hausbetreuung Wien</title>
+                <title>Kontakt - Hausbetreuung/Gartenbetreuung/Winterdienst Wien</title>
                 <meta name="description" content="Kontakt - Hausbetreuung Wien - Zauberputz" />
             </Head>
 			<Navbar />

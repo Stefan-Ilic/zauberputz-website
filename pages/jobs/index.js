@@ -9,7 +9,7 @@ const PortfolioTwo = () => {
     return (
         <>
             <Head>
-                <title>Jobs - Hausbetreuung Wien</title>
+                <title>Jobs - Hausbetreuung/Gartenbetreuung/Winterdienst Wien</title>
                 <meta name="description" content="Jobs bei der Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst in Wien und Umgebung." />
             </Head>
 			<Navbar />
@@ -37,7 +37,7 @@ const PortfolioTwo = () => {
 
                                 <div className="portfolio-content">
                                     <h3>
-                                        <Link href="/portfolio-details">
+                                        <Link href="/jobs/gartenhelferin">
                                             <a>Gartenhelfer/in</a>
                                         </Link>
                                     </h3>
