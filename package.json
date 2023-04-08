@@ -23,6 +23,8 @@
         "next-optimized-images": "^2.6.2",
         "nodemailer": "^6.7.1",
         "nodemailer-sendgrid-transport": "^0.2.0",
+        "postcss-flexbugs-fixes": "^5.0.2",
+        "postcss-preset-env": "^7.8.3",
         "react": "^18.0.0",
         "react-accessible-accordion": "^3.3.5",
         "react-dom": "^18.0.0",
