@@ -4,7 +4,7 @@ import { services } from "../../constants";
 
 const Navbar = () => {
     const [menu, setMenu] = React.useState(true)
- 
+
     const toggleNavbar = () => {
         setMenu(!menu)
     }
@@ -18,7 +18,7 @@ const Navbar = () => {
                 elementId.classList.remove("is-sticky");
             }
         });
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 0);
     })
 
     // Search Modal
@@ -26,7 +26,7 @@ const Navbar = () => {
     const handleToggleSearchModal = () => {
         setActiveSearchModal(!isActiveSearchModal);
     };
- 
+
     const classOne = menu ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
     const classTwo = menu ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
 
@@ -38,17 +38,17 @@ const Navbar = () => {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
                                 <a onClick={toggleNavbar} className="navbar-brand">
-                                    <img src="/images/logo.svg" alt="logo" />
+                                    <img width={280} src="/images/logo.svg" alt="logo" />
                                 </a>
                             </Link>
 
-                            <button 
-                                onClick={toggleNavbar} 
+                            <button
+                                onClick={toggleNavbar}
                                 className={classTwo}
-                                type="button" 
-                                data-toggle="collapse" 
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                aria-expanded="false" 
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
                                 <span className="icon-bar top-bar"></span>
@@ -63,7 +63,7 @@ const Navbar = () => {
                                             <a onClick={e => e.preventDefault()} className="nav-link">
                                                 Leistungen <i className='bx bx-chevron-down'></i>
                                             </a>
-                                        </Link> 
+                                        </Link>
 
                                         <ul className="dropdown-menu">
                                             {services.map((service, i) => (
@@ -104,10 +104,6 @@ const Navbar = () => {
 
                             <div className="others-options d-flex align-items-center">
                                 <div className="option-item">
-                                    <i className="search-btn flaticon-loupe" onClick={handleToggleSearchModal} ></i>
-                                </div>
-
-                                <div className="option-item">
                                     <Link href="/kontakt">
                                         <a className="default-btn">
                                             Ihr Angebot
@@ -119,7 +115,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
- 
+
             {/* Search Form */}
             <div className={`search-overlay ${isActiveSearchModal ? "" : "search-overlay-active"}`}>
                 <div className="d-table">
@@ -127,7 +123,7 @@ const Navbar = () => {
                         <div className="search-overlay-layer"></div>
                         <div className="search-overlay-layer"></div>
                         <div className="search-overlay-layer"></div>
-                        
+
                         <div className="search-overlay-close" onClick={handleToggleSearchModal}>
                             <span className="search-overlay-close-line"></span>
                             <span className="search-overlay-close-line"></span>

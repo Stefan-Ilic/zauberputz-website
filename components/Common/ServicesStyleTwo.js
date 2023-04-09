@@ -18,7 +18,7 @@ const ServicesStyleTwo = () => {
                                 <div className="image">
                                     <Link href={service.link}>
                                         <a>
-                                            <img src={service.smallImage} alt="image" />
+                                            <img src={service.smallImage} alt="image" fetchpriority="high" />
                                         </a>
                                     </Link>
                                 </div>
@@ -33,21 +33,6 @@ const ServicesStyleTwo = () => {
                             </div>
                         </div>
                     ))}
-                </div>
-            </div>
-
-            <div className="default-shape">
-                <div className="shape1">
-                    <img src="/images/default-shape/default-shape1.png" alt="image" />
-                </div>
-                <div className="shape2">
-                    <img src="/images/default-shape/default-shape2.png" alt="image" />
-                </div>
-                <div className="shape3">
-                    <img src="/images/default-shape/default-shape3.png" alt="image" />
-                </div>
-                <div className="shape4">
-                    <img src="/images/default-shape/default-shape4.png" alt="image" />
                 </div>
             </div>
         </div>

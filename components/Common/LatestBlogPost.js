@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
 
 const LatestBlogPost = ({ posts }) => {
     return (
@@ -17,9 +18,14 @@ const LatestBlogPost = ({ posts }) => {
                         <div className="single-blog">
                             <div className="image">
                                 <Link href={post.link}>
-                                    <a>
+                                <a>
+                                    <div style={{ position: "relative", width: "100%", paddingBottom: "66%" }} >
+                                        <Image alt="Image Alt" src={post.image} layout="fill" objectFit="contain" />
+                                    </div>
+                                </a>
+                                    {/* <a>
                                         <img src={post.image} alt="image" />
-                                    </a>
+                                    </a> */}
                                 </Link>
                             </div>
                             <div className="content">
@@ -37,21 +43,6 @@ const LatestBlogPost = ({ posts }) => {
                     </div>
                     ))}
 
-                </div>
-            </div>
-
-            <div className="default-shape">
-                <div className="shape1">
-                    <img src="/images/default-shape/default-shape1.png" alt="image" />
-                </div>
-                <div className="shape2">
-                    <img src="/images/default-shape/default-shape2.png" alt="image" />
-                </div>
-                <div className="shape3">
-                    <img src="/images/default-shape/default-shape3.png" alt="image" />
-                </div>
-                <div className="shape4">
-                    <img src="/images/default-shape/default-shape4.png" alt="image" />
                 </div>
             </div>
         </div>

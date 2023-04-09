@@ -24,7 +24,14 @@ const MainBanner = () => {
 
                                 <div className="col-lg-6">
                                     <div className="main-banner-image pl-15">
-                                        <img src="/images/banner/banner.svg" alt="image" />
+                                    <picture fetchpriority="high">
+                                        <source media="(max-width: 480px)" srcset="/images/banner/banner-449.webp" fetchpriority="high" />
+                                        <source media="(max-width: 991px)" srcset="/images/banner/banner-620.webp" fetchpriority="high" />
+                                        <source media="(max-width: 1199px)" srcset="/images/banner/banner-449.webp" fetchpriority="high" />
+                                        <source media="(max-width: 1399px)" srcset="/images/banner/banner-537.webp" fetchpriority="high" />
+                                        <source media="(min-width:1400px)" srcset="/images/banner/banner-620.webp" fetchpriority="high" />
+                                        <img src="/images/banner/banner-449.webp" alt="banner" />
+                                    </picture>
                                     </div>
                                 </div>
                             </div>

@@ -14,13 +14,13 @@ export const services = [
         name: 'Winterdienst',
         link: '/leistungen/winterdienst',
         smallImage: '/images/services/service-winterdienst.svg',
-        slogan: 'Während der Sommerzeit'
+        slogan: 'In den kalten Monaten'
     },
     {
         name: 'Grünflächenbetreuung',
         link: '/leistungen/gartenbetreuung',
         smallImage: '/images/services/service-gruenflaechen.svg',
-        slogan: 'In den kalten Monaten'
+        slogan: 'Während der Sommerzeit'
     },
 ];
 

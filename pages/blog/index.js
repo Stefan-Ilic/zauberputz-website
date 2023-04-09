@@ -14,9 +14,9 @@ export async function getStaticProps() {
         },
     }
 }
- 
+
 const BlogTwo = ({ posts }) => {
-    
+
     return (
         <>
             <Head>
@@ -26,14 +26,14 @@ const BlogTwo = ({ posts }) => {
 
 			<Navbar />
 
-			<PageBanner 
-                pageTitle="Blog" 
-                homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Blog" 
-                BGImage="default-banner" 
+			<PageBanner
+                pageTitle="Blog"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Blog"
+                BGImage="default-banner"
             />
-			 
+
             <div className="blog-area pt-100 pb-100">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
@@ -83,22 +83,9 @@ const BlogTwo = ({ posts }) => {
                     </div>
                 </div>
 
-                <div className="default-shape">
-                    <div className="shape1">
-                        <img src="/images/default-shape/default-shape1.png" alt="image" />
-                    </div>
-                    <div className="shape2">
-                        <img src="/images/default-shape/default-shape2.png" alt="image" />
-                    </div>
-                    <div className="shape3">
-                        <img src="/images/default-shape/default-shape3.png" alt="image" />
-                    </div>
-                    <div className="shape4">
-                        <img src="/images/default-shape/default-shape4.png" alt="image" />
-                    </div>
-                </div>
+
             </div>
-		  
+
 			<Footer />
 		</>
     )

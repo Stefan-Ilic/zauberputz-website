@@ -33,6 +33,12 @@ const Index = ({ posts }) => {
             <Head>
                 <title>Hausbetreuung/Gartenbetreuung/Winterdienst Wien</title>
                 <meta name="description" content="Hausbetreuung Wien - Zauberputz. Ihr Spezialist für Hausbetreuung, Grünflächenbetreuung/Gartenbetreuung und Winterdienst/Schneeräumung in Wien und Umgebung." />
+                <link rel="preload" fetchpriority="high" media="(max-width: 480px)" srcset="/images/banner/banner-449.webp" />
+                <link rel="preload" fetchpriority="high" media="(max-width: 991px)" srcset="/images/banner/banner-620.webp" />
+                <link rel="preload" fetchpriority="high" media="(max-width: 1199px)" srcset="/images/banner/banner-449.webp" />
+                <link rel="preload" fetchpriority="high" media="(max-width: 1399px)" srcset="/images/banner/banner-537.webp" />
+                <link rel="preload" fetchpriority="high" media="(min-width:1400px)" srcset="/images/banner/banner-620.webp" />
+                <link rel="preload" href="/images/logo.svg" as="image" />
             </Head>
 
             <Navbar />
@@ -46,7 +52,7 @@ const Index = ({ posts }) => {
             <LatestBlogPost posts={posts} />
 
             <SubscribeForm />
-            
+
             <Footer />
         </>
     )

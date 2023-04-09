@@ -251,27 +251,14 @@ Section Title CSS
   height: 100%;
   width: 5px;
   background: #ffffff;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-name: MOVE-BG;
-          animation-name: MOVE-BG;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: MOVE-BG;
 }
 .section-title.text-width {
   max-width: 600px;
   margin: 0 auto 45px;
-}
-
-@-webkit-keyframes MOVE-BG {
-  from {
-    -webkit-transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(85px);
-  }
 }
 @keyframes MOVE-BG {
   from {
@@ -308,8 +295,7 @@ Preloader Area CSS
   width: 100%;
   height: 100%;
   background: #ffffff;
-  -webkit-animation: animate 0.5s linear infinite;
-          animation: animate 0.5s linear infinite;
+  animation: animate 0.5s linear infinite;
   position: absolute;
   top: 0;
   left: 0;
@@ -324,17 +310,7 @@ Preloader Area CSS
   top: 59px;
   left: 0;
   border-radius: 50%;
-  -webkit-animation: shadow 0.5s linear infinite;
-          animation: shadow 0.5s linear infinite;
-}
-
-@-webkit-keyframes loader {
-  0% {
-    left: -100px;
-  }
-  100% {
-    left: 110%;
-  }
+  animation: shadow 0.5s linear infinite;
 }
 
 @keyframes loader {
@@ -343,24 +319,6 @@ Preloader Area CSS
   }
   100% {
     left: 110%;
-  }
-}
-@-webkit-keyframes animate {
-  17% {
-    border-bottom-right-radius: 3px;
-  }
-  25% {
-    transform: translateY(9px) rotate(22.5deg);
-  }
-  50% {
-    transform: translateY(18px) scale(1, 0.9) rotate(45deg);
-    border-bottom-right-radius: 40px;
-  }
-  75% {
-    transform: translateY(9px) rotate(67.5deg);
-  }
-  100% {
-    transform: translateY(0) rotate(90deg);
   }
 }
 @keyframes animate {
@@ -379,11 +337,6 @@ Preloader Area CSS
   }
   100% {
     transform: translateY(0) rotate(90deg);
-  }
-}
-@-webkit-keyframes shadow {
-  50% {
-    transform: scale(1.2, 1);
   }
 }
 @keyframes shadow {
@@ -676,8 +629,7 @@ Navbar Area CSS
   z-index: 999;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   background-color: #ffffff !important;
-  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
 .others-option-for-responsive {
@@ -938,21 +890,12 @@ Search Overlay CSS
   letter-spacing: 0.5px;
   color: #202647;
 }
-.search-overlay .search-overlay-form form .input-search:-ms-input-placeholder {
-  -ms-transition: 0.5s;
-  transition: 0.5s;
-  letter-spacing: 0.5px;
-  color: #202647;
-}
 .search-overlay .search-overlay-form form .input-search::placeholder {
   transition: 0.5s;
   letter-spacing: 0.5px;
   color: #202647;
 }
 .search-overlay .search-overlay-form form .input-search:focus::-moz-placeholder {
-  color: transparent;
-}
-.search-overlay .search-overlay-form form .input-search:focus:-ms-input-placeholder {
   color: transparent;
 }
 .search-overlay .search-overlay-form form .input-search:focus::placeholder {
@@ -1092,21 +1035,12 @@ Search Overlay CSS
   letter-spacing: 0.5px;
   color: #202647;
 }
-.search-overlay .search-overlay-form form .input-search:-ms-input-placeholder {
-  -ms-transition: 0.5s;
-  transition: 0.5s;
-  letter-spacing: 0.5px;
-  color: #202647;
-}
 .search-overlay .search-overlay-form form .input-search::placeholder {
   transition: 0.5s;
   letter-spacing: 0.5px;
   color: #202647;
 }
 .search-overlay .search-overlay-form form .input-search:focus::-moz-placeholder {
-  color: transparent;
-}
-.search-overlay .search-overlay-form form .input-search:focus:-ms-input-placeholder {
   color: transparent;
 }
 .search-overlay .search-overlay-form form .input-search:focus::placeholder {
@@ -1181,8 +1115,7 @@ Main Banner Area CSS
   top: 0;
 }
 .main-banner-item.item-two .main-banner-image img {
-  -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
-          animation: border-transform-default 10s linear infinite alternate forwards;
+  animation: border-transform-default 10s linear infinite alternate forwards;
   border-radius: 50%;
 }
 .main-banner-item.item-three {
@@ -1194,8 +1127,7 @@ Main Banner Area CSS
   top: 0;
 }
 .main-banner-item.item-three .main-banner-image img {
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-          animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
 }
 .main-banner-item.item-four {
   height: 700px;
@@ -1231,8 +1163,7 @@ Main Banner Area CSS
   top: 40px;
 }
 .main-banner-image img {
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
+  animation: moveBounce 5s linear infinite;
 }
 
 .main-banner {
@@ -1245,8 +1176,7 @@ Main Banner Area CSS
   left: 10%;
   top: 16%;
   z-index: 1;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-          animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
   max-width: 50px;
 }
 .main-banner-shape .shape-2 {
@@ -1257,14 +1187,10 @@ Main Banner Area CSS
   max-width: 50px;
 }
 .main-banner-shape .shape-2 img {
-  -webkit-animation-name: rotateMe;
-          animation-name: rotateMe;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-name: rotateMe;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .main-banner-shape .shape-3 {
   position: absolute;
@@ -1274,14 +1200,10 @@ Main Banner Area CSS
   max-width: 50px;
 }
 .main-banner-shape .shape-3 img {
-  -webkit-animation-name: rotateMe;
-          animation-name: rotateMe;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-name: rotateMe;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .main-banner-shape .shape-4 {
   position: absolute;
@@ -1291,14 +1213,10 @@ Main Banner Area CSS
   max-width: 50px;
 }
 .main-banner-shape .shape-4 img {
-  -webkit-animation-name: rotateMe;
-          animation-name: rotateMe;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-name: rotateMe;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .main-banner-shape .shape-5 {
   position: absolute;
@@ -1306,8 +1224,7 @@ Main Banner Area CSS
   bottom: 15%;
   z-index: 1;
   max-width: 45px;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-          animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
 }
 .main-banner-shape .shape-6 {
   position: absolute;
@@ -1317,14 +1234,10 @@ Main Banner Area CSS
   max-width: 50px;
 }
 .main-banner-shape .shape-6 img {
-  -webkit-animation-name: rotateMe;
-          animation-name: rotateMe;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-name: rotateMe;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .main-banner-shape .shape-7 {
   position: absolute;
@@ -1332,8 +1245,7 @@ Main Banner Area CSS
   top: 30%;
   z-index: 1;
   max-width: 30px;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-          animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
 }
 .main-banner-shape .shape-8 {
   position: absolute;
@@ -1341,16 +1253,14 @@ Main Banner Area CSS
   bottom: 15%;
   z-index: 1;
   max-width: 30px;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-          animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
 }
 .main-banner-shape .shape-9 {
   position: absolute;
   left: -20px;
   top: -85px;
   z-index: 1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-          animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
   max-width: 300px;
 }
 .main-banner-shape .shape-10 {
@@ -1358,8 +1268,7 @@ Main Banner Area CSS
   top: 5%;
   left: 40%;
   z-index: 1;
-  -webkit-animation: rotate3d 4s linear infinite;
-          animation: rotate3d 4s linear infinite;
+  animation: rotate3d 4s linear infinite;
 }
 .main-banner-shape .shape-11 {
   position: absolute;
@@ -1367,24 +1276,21 @@ Main Banner Area CSS
   bottom: 15%;
   z-index: 1;
   max-width: 60px;
-  -webkit-animation: moveScale 3s linear infinite;
-          animation: moveScale 3s linear infinite;
+  animation: moveScale 3s linear infinite;
 }
 .main-banner-shape .shape-12 {
   position: absolute;
   bottom: 15%;
   left: 30%;
   z-index: 1;
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
+  animation: moveBounce 5s linear infinite;
 }
 .main-banner-shape .shape-13 {
   position: absolute;
   bottom: 0;
   right: -5%;
   z-index: 1;
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
+  animation: moveBounce 5s linear infinite;
   max-width: 300px;
 }
 .main-banner-shape .shape-14 {
@@ -1392,8 +1298,7 @@ Main Banner Area CSS
   top: 15%;
   left: 48%;
   z-index: 1;
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
+  animation: moveBounce 5s linear infinite;
 }
 
 .banner-form {
@@ -1421,9 +1326,6 @@ Main Banner Area CSS
 .banner-form .form-control::-moz-placeholder {
   color: #6b6b84;
 }
-.banner-form .form-control:-ms-input-placeholder {
-  color: #6b6b84;
-}
 .banner-form .form-control::placeholder {
   color: #6b6b84;
 }
@@ -1444,41 +1346,12 @@ Main Banner Area CSS
   font-size: 16px;
   font-weight: 500;
 }
-
-@-webkit-keyframes rotateMe {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 @keyframes rotateMe {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes animationFramesOne {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  20% {
-    transform: translate(73px, -1px) rotate(36deg);
-  }
-  40% {
-    transform: translate(141px, 72px) rotate(72deg);
-  }
-  60% {
-    transform: translate(83px, 122px) rotate(108deg);
-  }
-  80% {
-    transform: translate(-40px, 72px) rotate(144deg);
-  }
-  100% {
-    transform: translate(0px, 0px) rotate(0deg);
   }
 }
 @keyframes animationFramesOne {
@@ -1496,26 +1369,6 @@ Main Banner Area CSS
   }
   80% {
     transform: translate(-40px, 72px) rotate(144deg);
-  }
-  100% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-}
-@-webkit-keyframes animationFramesTwo {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  20% {
-    transform: translate(-73px, 1px) rotate(-36deg);
-  }
-  40% {
-    transform: translate(-141px, -72px) rotate(-72deg);
-  }
-  60% {
-    transform: translate(-83px, -122px) rotate(-108deg);
-  }
-  80% {
-    transform: translate(40px, -72px) rotate(-144deg);
   }
   100% {
     transform: translate(0px, 0px) rotate(0deg);
@@ -1541,31 +1394,12 @@ Main Banner Area CSS
     transform: translate(0px, 0px) rotate(0deg);
   }
 }
-@-webkit-keyframes rotate3d {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
 @keyframes rotate3d {
   0% {
     transform: rotateY(0deg);
   }
   100% {
     transform: rotateY(360deg);
-  }
-}
-@-webkit-keyframes moveScale {
-  0% {
-    transform: scale(0.6);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(0.6);
   }
 }
 @keyframes moveScale {
@@ -1579,17 +1413,6 @@ Main Banner Area CSS
     transform: scale(0.6);
   }
 }
-@-webkit-keyframes moveLeftBounce {
-  0% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(20px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
 @keyframes moveLeftBounce {
   0% {
     transform: translateX(0px);
@@ -1601,17 +1424,6 @@ Main Banner Area CSS
     transform: translateX(0px);
   }
 }
-@-webkit-keyframes moveBounce {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(20px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 @keyframes moveBounce {
   0% {
     transform: translateY(0px);
@@ -1621,29 +1433,6 @@ Main Banner Area CSS
   }
   100% {
     transform: translateY(0px);
-  }
-}
-@-webkit-keyframes border-transform-default {
-  0%, to {
-    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
-  }
-  14% {
-    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
-  }
-  28% {
-    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
-  }
-  42% {
-    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
-  }
-  56% {
-    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
-  }
-  70% {
-    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
-  }
-  84% {
-    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
   }
 }
 @keyframes border-transform-default {
@@ -1721,8 +1510,7 @@ Main Slider Area CSS
   left: -20px;
   top: -85px;
   z-index: 1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-          animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
 }
 .main-slider-shape .shape-1 img {
   max-width: 300px;
@@ -1732,8 +1520,7 @@ Main Slider Area CSS
   top: 5%;
   left: 40%;
   z-index: 1;
-  -webkit-animation: rotate3d 4s linear infinite;
-          animation: rotate3d 4s linear infinite;
+  animation: rotate3d 4s linear infinite;
 }
 .main-slider-shape .shape-3 {
   position: absolute;
@@ -1741,24 +1528,21 @@ Main Slider Area CSS
   bottom: 15%;
   z-index: 1;
   max-width: 60px;
-  -webkit-animation: moveScale 3s linear infinite;
-          animation: moveScale 3s linear infinite;
+  animation: moveScale 3s linear infinite;
 }
 .main-slider-shape .shape-4 {
   position: absolute;
   bottom: 15%;
   left: 30%;
   z-index: 1;
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
+  animation: moveBounce 5s linear infinite;
 }
 .main-slider-shape .shape-5 {
   position: absolute;
   bottom: 0;
   left: 30%;
   z-index: 1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-          animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
 }
 .main-slider-shape .shape-5 img {
   max-width: 300px;
@@ -2009,14 +1793,10 @@ Features Area CSS
   height: 100%;
   width: 5px;
   background: #ffffff;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-name: MOVE-BG;
-          animation-name: MOVE-BG;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: MOVE-BG;
 }
 .features-inner-content p {
   margin-bottom: 0;
@@ -2114,14 +1894,10 @@ About Area CSS
   height: 100%;
   width: 5px;
   background: #ffffff;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-name: MOVE-BG;
-          animation-name: MOVE-BG;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: MOVE-BG;
 }
 .about-content strong {
   color: #6b6b84;
@@ -2221,8 +1997,7 @@ About Area CSS
   left: 0;
   border-radius: 50%;
   border: 1px solid #0408f5;
-  -webkit-animation: ripple 1s linear 1s infinite;
-          animation: ripple 1s linear 1s infinite;
+  animation: ripple 1s linear 1s infinite;
 }
 .about-image-warp .video-btn::before {
   content: "";
@@ -2235,26 +2010,11 @@ About Area CSS
   left: 0;
   border-radius: 50%;
   border: 1px solid #0408f5;
-  -webkit-animation: ripple 1s linear infinite;
-          animation: ripple 1s linear infinite;
+  animation: ripple 1s linear infinite;
 }
 .about-image-warp .video-btn:hover, .about-image-warp .video-btn .video-content .video-btn:focus {
   background-color: #ffffff;
   color: linear-gradient(to right top, #1831ff, #184ffa, #1543d4, #1237ae, #1f398f);
-}
-
-@-webkit-keyframes ripple {
-  0% {
-    transform: scale(1);
-  }
-  75% {
-    transform: scale(1.75);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(2);
-    opacity: 0;
-  }
 }
 
 @keyframes ripple {
@@ -2467,8 +2227,7 @@ Services Area CSS
   color: #0408f5;
 }
 .single-services-box:hover .icon {
-  -webkit-animation: bounce 2s;
-          animation: bounce 2s;
+  animation: bounce 2s;
 }
 
 /*================================================
@@ -2479,8 +2238,7 @@ Default Shape CSS
   left: 5%;
   top: 10%;
   z-index: 1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-          animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
   z-index: -1;
 }
 
@@ -2489,8 +2247,7 @@ Default Shape CSS
   left: 2%;
   bottom: 30%;
   z-index: 1;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-          animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
   z-index: -1;
 }
 
@@ -2499,8 +2256,7 @@ Default Shape CSS
   right: 10%;
   top: 10%;
   z-index: 1;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-          animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
   z-index: -1;
 }
 
@@ -2509,8 +2265,7 @@ Default Shape CSS
   right: 5%;
   bottom: 30%;
   z-index: 1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-          animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
   z-index: -1;
 }
 
@@ -3073,14 +2828,10 @@ Testimonial Area CSS
   height: 100%;
   width: 5px;
   background: #ffffff;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-name: MOVE-BG;
-          animation-name: MOVE-BG;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: MOVE-BG;
 }
 
 .testimonial-inner-content {
@@ -4010,16 +3761,14 @@ Quote Area CSS
   top: 5%;
   left: 42%;
   z-index: -1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-          animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
 }
 .quote-shape .shape-2 {
   position: absolute;
   left: 2%;
   bottom: 8%;
   z-index: -1;
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
+  animation: moveBounce 5s linear infinite;
 }
 
 /*================================================
@@ -4047,8 +3796,7 @@ Overview Area CSS
 
 .overview-image img {
   border-radius: 100%;
-  -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
-          animation: border-transform-default 10s linear infinite alternate forwards;
+  animation: border-transform-default 10s linear infinite alternate forwards;
 }
 
 /*================================================
@@ -4446,9 +4194,6 @@ Forgot Password CSS
 .forgot-password-form form .form-control::-moz-placeholder {
   color: #6b6b84;
 }
-.forgot-password-form form .form-control:-ms-input-placeholder {
-  color: #6b6b84;
-}
 .forgot-password-form form .form-control::placeholder {
   color: #6b6b84;
 }
@@ -4802,8 +4547,7 @@ Services Details Area CSS
 }
 .services-details-desc .services-details-features .features-image img {
   border-radius: 50%;
-  -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
-          animation: border-transform-default 10s linear infinite alternate forwards;
+  animation: border-transform-default 10s linear infinite alternate forwards;
 }
 .services-details-desc .text-result h3 {
   margin-top: 0;
@@ -5445,9 +5189,6 @@ blockquote p, .blockquote p {
 .comments-area .comment-respond input[type=date]::-moz-placeholder, .comments-area .comment-respond input[type=time]::-moz-placeholder, .comments-area .comment-respond input[type=datetime-local]::-moz-placeholder, .comments-area .comment-respond input[type=week]::-moz-placeholder, .comments-area .comment-respond input[type=month]::-moz-placeholder, .comments-area .comment-respond input[type=text]::-moz-placeholder, .comments-area .comment-respond input[type=email]::-moz-placeholder, .comments-area .comment-respond input[type=url]::-moz-placeholder, .comments-area .comment-respond input[type=password]::-moz-placeholder, .comments-area .comment-respond input[type=search]::-moz-placeholder, .comments-area .comment-respond input[type=tel]::-moz-placeholder, .comments-area .comment-respond input[type=number]::-moz-placeholder, .comments-area .comment-respond textarea::-moz-placeholder {
   color: #6b6b84;
 }
-.comments-area .comment-respond input[type=date]:-ms-input-placeholder, .comments-area .comment-respond input[type=time]:-ms-input-placeholder, .comments-area .comment-respond input[type=datetime-local]:-ms-input-placeholder, .comments-area .comment-respond input[type=week]:-ms-input-placeholder, .comments-area .comment-respond input[type=month]:-ms-input-placeholder, .comments-area .comment-respond input[type=text]:-ms-input-placeholder, .comments-area .comment-respond input[type=email]:-ms-input-placeholder, .comments-area .comment-respond input[type=url]:-ms-input-placeholder, .comments-area .comment-respond input[type=password]:-ms-input-placeholder, .comments-area .comment-respond input[type=search]:-ms-input-placeholder, .comments-area .comment-respond input[type=tel]:-ms-input-placeholder, .comments-area .comment-respond input[type=number]:-ms-input-placeholder, .comments-area .comment-respond textarea:-ms-input-placeholder {
-  color: #6b6b84;
-}
 .comments-area .comment-respond input[type=date]::placeholder, .comments-area .comment-respond input[type=time]::placeholder, .comments-area .comment-respond input[type=datetime-local]::placeholder, .comments-area .comment-respond input[type=week]::placeholder, .comments-area .comment-respond input[type=month]::placeholder, .comments-area .comment-respond input[type=text]::placeholder, .comments-area .comment-respond input[type=email]::placeholder, .comments-area .comment-respond input[type=url]::placeholder, .comments-area .comment-respond input[type=password]::placeholder, .comments-area .comment-respond input[type=search]::placeholder, .comments-area .comment-respond input[type=tel]::placeholder, .comments-area .comment-respond input[type=number]::placeholder, .comments-area .comment-respond textarea::placeholder {
   color: #6b6b84;
 }
@@ -6026,9 +5767,6 @@ Cart Area CSS
 .cart-table table tbody tr td.product-quantity .input-counter input::-moz-placeholder {
   color: #0408f5;
 }
-.cart-table table tbody tr td.product-quantity .input-counter input:-ms-input-placeholder {
-  color: #0408f5;
-}
 .cart-table table tbody tr td.product-quantity .input-counter input::placeholder {
   color: #0408f5;
 }
@@ -6436,9 +6174,6 @@ Product Details Area CSS
 .product-details-desc .product-add-to-cart .input-counter input::-moz-placeholder {
   color: #000000;
 }
-.product-details-desc .product-add-to-cart .input-counter input:-ms-input-placeholder {
-  color: #000000;
-}
 .product-details-desc .product-add-to-cart .input-counter input::placeholder {
   color: #000000;
 }
@@ -6468,7 +6203,6 @@ Product Details Area CSS
   margin: auto;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   cursor: pointer;
 }
@@ -6527,8 +6261,7 @@ Product Details Area CSS
 .product-details-desc .buy-checkbox-btn .inp-cbx:checked + .cbx span:first-child {
   background: #0408f5;
   border-color: #0408f5;
-  -webkit-animation: wave 0.4s ease;
-          animation: wave 0.4s ease;
+  animation: wave 0.4s ease;
 }
 .product-details-desc .buy-checkbox-btn .inp-cbx:checked + .cbx span:first-child svg {
   stroke-dashoffset: 0;

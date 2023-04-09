@@ -224,20 +224,16 @@
     height: 100%;
   }
   .main-banner-item.item-two .main-banner-image img {
-    -webkit-animation: unset;
-            animation: unset;
-    -webkit-animation: moveBounce 5s linear infinite;
-            animation: moveBounce 5s linear infinite;
+    animation: unset;
+    animation: moveBounce 5s linear infinite;
     border-radius: 0%;
   }
   .main-banner-item.item-three {
     height: 100%;
   }
   .main-banner-item.item-three .main-banner-image img {
-    -webkit-animation: unset;
-            animation: unset;
-    -webkit-animation: moveBounce 5s linear infinite;
-            animation: moveBounce 5s linear infinite;
+    animation: unset;
+    animation: moveBounce 5s linear infinite;
   }
   .main-banner-item.item-four {
     height: 100%;
@@ -922,20 +918,16 @@
     height: 100%;
   }
   .main-banner-item.item-two .main-banner-image img {
-    -webkit-animation: unset;
-            animation: unset;
-    -webkit-animation: moveBounce 5s linear infinite;
-            animation: moveBounce 5s linear infinite;
+    animation: unset;
+    animation: moveBounce 5s linear infinite;
     border-radius: 0%;
   }
   .main-banner-item.item-three {
     height: 100%;
   }
   .main-banner-item.item-three .main-banner-image img {
-    -webkit-animation: unset;
-            animation: unset;
-    -webkit-animation: moveBounce 5s linear infinite;
-            animation: moveBounce 5s linear infinite;
+    animation: unset;
+    animation: moveBounce 5s linear infinite;
   }
   .main-banner-item.item-four {
     height: 100%;
